@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LearnLoop — exchange skills with peers or learn professionally with expert-led programs." />
+  <title>LearnLoop | Share Skills. Learn Something New.</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="LearnLoop home">
+      <span class="logo-mark">L</span>
+      <span>Learn<span>Loop</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#exchange">Skill Exchange</a>
+      <a href="#learn">Learn a New Skill</a>
+      <a href="#how">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <button class="nav-join" data-open-register>Join Now</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">TRADE SKILLS, NOT MONEY</span>
+        <h1>Share your skills.<br><em>Learn something new.</em></h1>
+        <p class="hero-text">
+          LearnLoop gives you two simple ways to grow: exchange everyday skills
+          with other learners for free, or join expert-led programs for deeper,
+          structured learning.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#exchange">Explore Skill Exchange</a>
+          <a class="btn secondary" href="#learn">Learn Professionally →</a>
+        </div>
+        <div class="mini-proof">
+          <div><strong>50+</strong><span>skills to explore</span></div>
+          <div><strong>2</strong><span>ways to learn</span></div>
+          <div><strong>₹499</strong><span>Pro / month</span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="floating-card top">GIVE ↔ GET</div>
+        <div class="hero-orbit">
+          <div class="orbit-dot one">Python</div>
+          <div class="orbit-dot two">Design</div>
+          <div class="orbit-dot three">Spanish</div>
+          <div class="orbit-center">
+            <span>LL</span>
+            <strong>LearnLoop</strong>
+            <small>skills in motion</small>
+          </div>
+        </div>
+        <div class="floating-card bottom">Learn • Teach • Grow</div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="exchange">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">01 · SKILL EXCHANGE</span>
+          <h2>Learn from people.<br />Teach what you know.</h2>
+        </div>
+        <p>Basic, practical skills are exchanged without a course fee. Match your skill with someone else's.</p>
+      </div>
+
+      <div class="skill-grid" id="exchangeGrid"></div>
+    </section>
+
+    <section class="section dark-section" id="learn">
+      <div class="section-heading light">
+        <div>
+          <span class="eyebrow">02 · LEARN A NEW SKILL</span>
+          <h2>Want structured learning?<br />Go Pro.</h2>
+        </div>
+        <p>These programs are designed for skills where expert guidance, projects and structured progression add real value.</p>
+      </div>
+
+      <div class="program-grid" id="programGrid"></div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="center-heading">
+        <span class="eyebrow">HOW IT WORKS</span>
+        <h2>One skill opens another door.</h2>
+      </div>
+      <div class="steps">
+        <article><span>01</span><h3>Choose your path</h3><p>Pick Skill Exchange for peer learning or Learn a New Skill for an expert-led program.</p></article>
+        <article><span>02</span><h3>Join the program</h3><p>Tell us your name, email, skill and experience level through the simple registration form.</p></article>
+        <article><span>03</span><h3>Start learning</h3><p>Exchange learners coordinate their sessions. Pro learners follow a structured program.</p></article>
+        <article><span>04</span><h3>Grow your loop</h3><p>Build practical skills, complete projects and continue learning with the community.</p></article>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="center-heading">
+        <span class="eyebrow">PRICING</span>
+        <h2>Choose how you want to learn.</h2>
+        <p>Skill Exchange stays free. Pro gives access to selected professional learning programs.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <span class="plan-label">COMMUNITY</span>
+          <h3>Skill Exchange</h3>
+          <div class="price">₹0 <small>/ forever</small></div>
+          <p>For learners who want to trade practical skills with other people.</p>
+          <ul>
+            <li>✓ Peer-to-peer skill exchange</li>
+            <li>✓ Basic skills library</li>
+            <li>✓ Flexible learning sessions</li>
+            <li>✓ No course fee</li>
+          </ul>
+          <button class="btn secondary full" data-open-register>Join Skill Exchange</button>
+        </article>
+
+        <article class="price-card featured">
+          <span class="plan-label">LEARNLOOP PRO</span>
+          <h3>Professional Learning</h3>
+          <div class="price">₹499 <small>/ month</small></div>
+          <p>For learners who want structured programs with professional guidance.</p>
+          <ul>
+            <li>✓ Expert-led professional programs</li>
+            <li>✓ Projects and structured curriculum</li>
+            <li>✓ Advanced skill tracks</li>
+            <li>✓ Pro learner community</li>
+          </ul>
+          <button class="btn primary full" data-open-register data-program="LearnLoop Pro">Join Pro Program</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="center-heading">
+        <span class="eyebrow">FAQ</span>
+        <h2>Questions before you start?</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>Is Skill Exchange free?</summary><p>Yes. The basic Skill Exchange section is designed around peer-to-peer exchange, so you teach a skill and learn another skill in return.</p></details>
+        <details><summary>What is LearnLoop Pro?</summary><p>Pro is a paid learning option for selected advanced programs that require more structured curriculum, projects and professional guidance. The planned price is ₹499 per month.</p></details>
+        <details><summary>Do I need experience to join?</summary><p>No. Select your current level in the registration form. Beginner learners are welcome.</p></details>
+        <details><summary>Will I receive a confirmation email?</summary><p>Yes. Once the email service is configured on Render, successful registrations receive a confirmation email containing their LearnLoop registration ID and selected program.</p></details>
+        <details><summary>Does the ₹499 payment work automatically?</summary><p>This version includes the Pro plan and pricing interface. Actual subscription payments require a payment gateway such as Stripe or Razorpay to be connected separately.</p></details>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div>
+        <span class="eyebrow">YOUR KNOWLEDGE HAS VALUE</span>
+        <h2>Teach one thing.<br />Learn anything.</h2>
+      </div>
+      <button class="btn white" data-open-register>Join LearnLoop ↗</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <div>
+        <a class="logo footer-logo" href="#home"><span class="logo-mark">L</span><span>Learn<span>Loop</span></span></a>
+        <p>Share what you know.<br />Learn what you don't.</p>
+      </div>
+      <div><h4>Platform</h4><a href="#exchange">Skill Exchange</a><a href="#learn">Learn a New Skill</a><a href="#pricing">Pricing</a></div>
+      <div><h4>Company</h4><a href="#how">How it works</a><a href="#faq">FAQ</a><button data-open-register>Join the program</button></div>
+      <div><h4>Support</h4><p>hello@learnloop.community</p><p>safety@learnloop.community</p></div>
+    </div>
+    <div class="footer-bottom">© 2026 LearnLoop · Trade skills, not money.</div>
+  </footer>
+
+  <div class="modal" id="articleModal" aria-hidden="true">
+    <div class="modal-box article-box">
+      <button class="modal-close" data-close-article>×</button>
+      <span class="eyebrow" id="articleType"></span>
+      <h2 id="articleTitle"></h2>
+      <p class="lead" id="articleDescription"></p>
+      <div class="article-meta" id="articleMeta"></div>
+      <div class="article-columns">
+        <div><h3>What you'll learn</h3><ul id="articleTopics"></ul></div>
+        <div><h3>Who it's for</h3><p id="articleAudience"></p><h3>Outcome</h3><p id="articleOutcome"></p></div>
+      </div>
+      <button class="btn primary" id="articleJoin">Join this program</button>
+    </div>
+  </div>
+
+  <div class="modal" id="registerModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" data-close-register>×</button>
+      <span class="eyebrow">JOIN LEARNLOOP</span>
+      <h2>Start your learning journey.</h2>
+      <p class="lead">Fill in the form and we'll email you a confirmation after successful registration.</p>
+
+      <form id="registrationForm">
+        <div class="form-row">
+          <label>Full name *<input id="name" name="name" required placeholder="Your name" /></label>
+          <label>Email address *<input id="email" name="email" type="email" required placeholder="you@example.com" /></label>
+        </div>
+        <div class="form-row">
+          <label>Choose skill / program *
+            <select id="skill" name="skill" required>
+              <option value="">Select an option</option>
+            </select>
+          </label>
+          <label>Learning path *
+            <select id="mode" name="mode" required>
+              <option value="">Select</option>
+              <option>Skill Exchange — Free</option>
+              <option>Learn a New Skill — Pro</option>
+            </select>
+          </label>
+        </div>
+        <label>Current experience
+          <select name="experience">
+            <option>Complete beginner</option>
+            <option>Some basic knowledge</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+          </select>
+        </label>
+        <label>Anything you'd like us to know?
+          <textarea name="message" rows="4" placeholder="Your learning goal, preferred schedule, etc."></textarea>
+        </label>
+        <div class="form-note">By submitting, you agree that LearnLoop may use your details to contact you about the selected program.</div>
+        <button class="btn primary full" type="submit" id="submitBtn">Complete Registration</button>
+        <div class="form-status" id="formStatus" role="status"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
